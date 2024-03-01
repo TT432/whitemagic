@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.tt432.whitemagic.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "white_magic.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinPoseStack"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
